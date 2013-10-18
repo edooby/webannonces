@@ -1,0 +1,1 @@
+Faites pointer votre domaine sur le répertoire www
