@@ -1,28 +1,5 @@
 <?php
     include('inc/header.php');
-	include('inc/tools.php');
-	function error_by_field($errors, $field)
-	{
-		$result = array();
-		foreach($errors as $error)
-		{
-			if ($error['field']=== $field)
-			{
-				$result[]=$error['message'];
-			}
-		}
-		return $result;
-	}
-
-	function save_origin_value_from_form($form, $field)
-	{
-		$retour = '';
-		if(isset($form[$field]))
-		{
-			$retour = stripslashes($form[$field]);
-		}
-		return $retour;
-	}
 ?>
 
     <div class="container" style="margin-top:100px;">
