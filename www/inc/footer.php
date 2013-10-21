@@ -1,6 +1,3 @@
-<?php
-    include('tools.php');
-?>
 
 <footer>
         <p>&copy; Cours Html 2013
